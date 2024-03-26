@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.HeadNav{
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family:"Poppins";
+    padding: 5px 20px ;
+}
+.headInfo{
+    width:100%;
+    margin-top: 15px;
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* right: 20px; */
+}
+.headInfo h1{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D2646
+    
+}
+.headInfo p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+   color: #8C8FA5
+     
+}
+.notify img,
+.accountImg img{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    gap: 8px
+
+}
